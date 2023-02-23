@@ -4,7 +4,7 @@
     "title": "Quiz 2 - Variables and Data Types",
     "html_url": "https://learning.flatironschool.com/courses/6675/quizzes/44743",
     "mobile_url": "https://learning.flatironschool.com/courses/6675/quizzes/44743?force_user=1&persist_headless=1",
-    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"java-mod-1-variables-data-types\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/java-mod-1-variables-data-types/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"java-mod-1-variables-data-types\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/java-mod-1-variables-data-types/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Note any answers that were marked incorrect,\nso you can study the relevant material and try this quiz again.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
     "timer_autosubmit_disabled": false,
@@ -71,7 +71,7 @@
     "only_visible_to_overrides": false,
     "assignment_group_id": 20000,
     "show_correct_answers_last_attempt": true,
-    "version_number": 3,
+    "version_number": 4,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": null,
@@ -87,30 +87,30 @@
       "quiz_group_id": null,
       "assessment_question_id": 524953,
       "position": null,
-      "question_name": "Short Answer Question",
-      "question_type": "short_answer_question",
-      "question_text": "<p>A/an _____ is simply a well-defined procedure, or set of instructions, for\naccomplishing a specific task.</p>",
+      "question_name": "True/False Question",
+      "question_type": "true_false_question",
+      "question_text": "<p>True or False: A variable is a container in which we can store a value in.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6675/pages/variables?module_item_id=535466\">Review the Variables Lesson</a></li></ul><p></p>",
       "answers": [
         {
-          "id": "6743",
-          "text": "algorithm",
           "comments": "",
           "comments_html": "",
-          "weight": 100
+          "text": "True",
+          "weight": 100,
+          "id": 2357
         },
         {
-          "id": "6020",
-          "text": "Algorithm",
           "comments": "",
           "comments_html": "",
-          "weight": 100
+          "text": "False",
+          "weight": 0,
+          "id": 8145
         }
       ],
       "variables": null,
@@ -126,64 +126,64 @@
       "quiz_group_id": null,
       "assessment_question_id": 524954,
       "position": null,
-      "question_name": "Multiple Choice Question",
-      "question_type": "multiple_choice_question",
-      "question_text": "<p>Calculate the <strong>time complexity</strong> for the following code using Big O notation:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">function</span> <span class=\"nx\">logLetter</span><span class=\"p\">(</span><span class=\"nx\">string</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"k\">for</span> <span class=\"p\">(</span><span class=\"kd\">const</span> <span class=\"nx\">letter</span> <span class=\"k\">of</span> <span class=\"nx\">string</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n    <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">letter</span><span class=\"p\">);</span>\n  <span class=\"p\">}</span>\n<span class=\"p\">}</span>\n</code></pre></div>",
+      "question_name": "Matching Question",
+      "question_type": "matching_question",
+      "question_text": "<p>Match the term with the best description.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6675/pages/variables?module_item_id=535466\">Review the Variables Lesson</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 4007,
-          "text": "",
-          "html": "<p>O(n)</p>",
+          "id": 9750,
+          "text": "Variable Declaration",
+          "left": "Variable Declaration",
+          "right": "When we introduce a variable into a program",
           "comments": "",
-          "comments_html": "<p>Correct! Since the algorithm needs to iterate through each letter of the input,\nthe time complexity will grow in linear proportion to the size of the input.</p>",
-          "weight": 100.0
+          "comments_html": "",
+          "match_id": 9836
         },
         {
-          "id": 8697,
-          "text": "",
-          "html": "<p>O(1)</p>",
+          "id": 596,
+          "text": "Variable Initialization",
+          "left": "Variable Initialization",
+          "right": "When we give or assign an initial value to a variable.",
           "comments": "",
-          "comments_html": "<p>Not quite. O(1) would mean the algorithm's runtime stays the same regardless of\nhow large the input is.</p>",
-          "weight": 0.0
+          "comments_html": "",
+          "match_id": 5137
         },
         {
-          "id": 4854,
-          "text": "",
-          "html": "<p>O(n²)</p>",
+          "id": 4607,
+          "text": "Variable Assignment or Re-Assignment",
+          "left": "Variable Assignment or Re-Assignment",
+          "right": "When we provide a new value to a variable.",
           "comments": "",
-          "comments_html": "<p>Not quite. O(n²) would mean the algorithm's runtime grows exponentially as the\nsize of the input grows, like an algorithm that involved a nested loop.</p>",
-          "weight": 0.0
-        },
-        {
-          "id": 1517,
-          "text": "",
-          "html": "<p>O(log n)</p>",
-          "comments": "",
-          "comments_html": "<p>Not quite. O(log n) would mean that the algorithm's time complexity grows in a\nlogarithmic proportion to the size of the input (so an input of size 1 would\ntake 1 step, size 10 would take 2 steps, size 100 would take 3 steps, etc).</p>",
-          "weight": 0.0
-        },
-        {
-          "id": 7730,
-          "text": "",
-          "html": "<p>I don't know</p>",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0
+          "comments_html": "",
+          "match_id": 9490
         }
       ],
       "variables": null,
       "formulas": null,
       "answer_tolerance": null,
       "formula_decimal_places": null,
-      "matches": null,
-      "matching_answer_incorrect_matches": null
+      "matches": [
+        {
+          "text": "When we introduce a variable into a program",
+          "match_id": 9836
+        },
+        {
+          "text": "When we give or assign an initial value to a variable.",
+          "match_id": 5137
+        },
+        {
+          "text": "When we provide a new value to a variable.",
+          "match_id": 9490
+        }
+      ],
+      "matching_answer_incorrect_matches": ""
     },
     {
       "id": 304363,
@@ -191,56 +191,23 @@
       "quiz_group_id": null,
       "assessment_question_id": 524955,
       "position": null,
-      "question_name": "Multiple Answers Question",
-      "question_type": "multiple_answers_question",
-      "question_text": "<p>We have a variable <code>lunch_menu</code>, set equal to an array of lunch menu items:</p>\n<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">lunch_menu</span> <span class=\"o\">=</span> <span class=\"p\">[</span><span class=\"s2\">\"pizza\"</span><span class=\"p\">,</span> <span class=\"s2\">\"sandwich\"</span><span class=\"p\">,</span> <span class=\"s2\">\"sushi\"</span><span class=\"p\">,</span> <span class=\"s2\">\"soup\"</span><span class=\"p\">,</span> <span class=\"s2\">\"salad\"</span><span class=\"p\">]</span>\n</code></pre></div>\n<p>Since you're super hungry and super excited about lunch, use the <code>.each</code> method\nto enumerate over the array and output a string to the terminal with each lunch\nmenu item with an <code>\"!\"</code> at the end.</p>\n\n<p>Which piece of code will achieve the desired result? Select all that apply:</p>",
+      "question_name": "Short Answer Question",
+      "question_type": "short_answer_question",
+      "question_text": "<p>What is the output of the following program?</p>\n<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Main</span> <span class=\"o\">{</span>\n    <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n        <span class=\"nc\">String</span> <span class=\"n\">cat</span> <span class=\"o\">=</span> <span class=\"s\">\"Grumpy Cat\"</span><span class=\"o\">;</span>\n        <span class=\"n\">cat</span> <span class=\"o\">=</span> <span class=\"s\">\"Tardar Sauce\"</span><span class=\"o\">;</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"n\">cat</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n</code></pre></div>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6675/pages/variables?module_item_id=535466\">Review the Variables Lesson</a></li></ul><p></p>",
       "answers": [
         {
-          "id": "5789",
-          "text": "",
+          "id": 3020,
+          "text": "Tardar Sauce",
           "comments": "",
-          "comments_html": "<p>Correct! Using <code>each</code> lets us access each element of the array in the block,\nand we can output a string by using <code>puts</code>.</p>",
-          "weight": 100.0,
-          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">lunch_menu</span><span class=\"p\">.</span><span class=\"nf\">each</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">lunch_item</span><span class=\"o\">|</span>\n  <span class=\"nb\">puts</span> <span class=\"n\">lunch_item</span> <span class=\"o\">+</span> <span class=\"s2\">\"!\"</span>\n<span class=\"k\">end</span>\n</code></pre></div>"
-        },
-        {
-          "id": "466",
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>This code would result in an error, since <code>lunch_menu</code> is an array, and we\ncan't us the <code>+</code> method to add a string to the array. How can we iterate over\neach element?</p>",
-          "weight": 0.0,
-          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"nb\">puts</span> <span class=\"n\">lunch_menu</span> <span class=\"o\">+</span> <span class=\"s2\">\"!\"</span>\n</code></pre></div>"
-        },
-        {
-          "id": "8686",
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Correct! Using <code>each</code> lets us access each element of the array in the block,\nand we can output a string by using <code>puts</code>.</p>",
-          "weight": 100.0,
-          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">lunch_menu</span><span class=\"p\">.</span><span class=\"nf\">each</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">lunch_item</span><span class=\"o\">|</span>\n  <span class=\"nb\">puts</span> <span class=\"s2\">\"</span><span class=\"si\">#{</span><span class=\"n\">lunch_item</span><span class=\"si\">}</span><span class=\"s2\">!\"</span>\n<span class=\"k\">end</span>\n</code></pre></div>"
-        },
-        {
-          "id": "838",
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Using <code>each</code> lets us access each element of the array in the block, but this\nmethod doesn't output anything to the terminal since we aren't using <code>puts</code>.</p>",
-          "weight": 0.0,
-          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">lunch_menu</span><span class=\"p\">.</span><span class=\"nf\">each</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">lunch_item</span><span class=\"o\">|</span>\n  <span class=\"s2\">\"</span><span class=\"si\">#{</span><span class=\"n\">lunch_item</span><span class=\"si\">}</span><span class=\"s2\">!\"</span>\n<span class=\"k\">end</span>\n</code></pre></div>"
-        },
-        {
-          "id": "666",
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0,
-          "html": "<p>I don't know.</p>"
+          "comments_html": "",
+          "weight": 100
         }
       ],
       "variables": null,
@@ -256,30 +223,48 @@
       "quiz_group_id": null,
       "assessment_question_id": 524956,
       "position": null,
-      "question_name": "True/False Question",
-      "question_type": "true_false_question",
-      "question_text": "<p>When we run <code>git add .</code>, <strong>all</strong> files that have been created or modified since\nthe last commit are staged and will be included in the next commit.&nbsp;</p>",
+      "question_name": "Multiple Choice Question",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>What is the output of the following program?</p>\n<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Main</span> <span class=\"o\">{</span>\n    <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n        <span class=\"nc\">String</span> <span class=\"n\">cat</span> <span class=\"o\">=</span> <span class=\"s\">\"Precious\"</span><span class=\"o\">;</span>\n        <span class=\"kt\">int</span> <span class=\"n\">age</span><span class=\"o\">;</span>\n        <span class=\"kt\">double</span> <span class=\"n\">adoptionFee</span><span class=\"o\">;</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"n\">cat</span><span class=\"o\">);</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"Age:\"</span><span class=\"o\">);</span>\n        <span class=\"n\">age</span> <span class=\"o\">=</span> <span class=\"mi\">9</span><span class=\"o\">;</span>\n        <span class=\"n\">adoptionFee</span> <span class=\"o\">=</span> <span class=\"mf\">80.0</span><span class=\"o\">;</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"n\">age</span><span class=\"o\">);</span>\n        <span class=\"n\">adoptionFee</span> <span class=\"o\">=</span> <span class=\"mf\">79.99</span><span class=\"o\">;</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"Adoption Fee:\"</span><span class=\"o\">);</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"n\">adoptionFee</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n</code></pre></div>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6675/pages/variables?module_item_id=535466\">Review the Variables Lesson</a></li><li><a href=\"https://learning.flatironschool.com/courses/6675/pages/data-types?module_item_id=535465\">Review the Data Types Lesson</a></li></ul><p></p>",
       "answers": [
         {
-          "comments": "",
-          "comments_html": "<p>Not quite. Be sure to review the <code>.gitignore</code> source for this question. You'll\nget it next time!</p>",
-          "text": "True",
-          "weight": 0,
-          "id": 2158
-        },
-        {
+          "id": 6793,
+          "text": "",
+          "html": "<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>cat\nage\nadoptionFee\n</code></pre></div>",
           "comments": "",
           "comments_html": "",
-          "text": "False",
-          "weight": 100,
-          "id": 1993
+          "weight": 0.0
+        },
+        {
+          "id": 9196,
+          "text": "",
+          "html": "<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>cat\nAge:\nage\nAdoption Fee:\nadoptionFee\n</code></pre></div>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 1648,
+          "text": "",
+          "html": "<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>Precious\nAge:\n9\nAdoption Fee:\n80.0\n</code></pre></div>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 6721,
+          "text": "",
+          "html": "<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>Precious\nAge:\n9\nAdoption Fee:\n79.99\n</code></pre></div>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
         }
       ],
       "variables": null,
@@ -304,25 +289,43 @@
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6675/pages/data-types?module_item_id=535465\">Review the Data Types Lesson</a></li></ul><p></p>",
       "answers": [
         {
-          "id": "1947",
-          "text": "Declarative Programming",
-          "left": "Declarative Programming",
-          "right": "Describes what the end result should be, not the specific actions or steps to\nget to that result.",
+          "id": 1389,
+          "text": "boolean",
+          "left": "boolean",
+          "right": "Stores true or false values.",
           "comments": "",
           "comments_html": "",
-          "match_id": 9408
+          "match_id": 6505
         },
         {
-          "id": "9817",
-          "text": "Imperative Programming",
-          "left": "Imperative Programming",
-          "right": "Explicitly describes the specific actions or steps for getting to the end\nresult.",
+          "id": 8042,
+          "text": "int",
+          "left": "int",
+          "right": "Stores whole numbers.",
           "comments": "",
           "comments_html": "",
-          "match_id": 5360
+          "match_id": 3327
+        },
+        {
+          "id": 1632,
+          "text": "double",
+          "left": "double",
+          "right": "Stores fractional numbers.",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 6208
+        },
+        {
+          "id": 9460,
+          "text": "char",
+          "left": "char",
+          "right": "Stores a single character or ASCII value.",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 4183
         }
       ],
       "variables": null,
@@ -331,19 +334,23 @@
       "formula_decimal_places": null,
       "matches": [
         {
-          "text": "Describes what the end result should be, not the specific actions or steps to\nget to that result.",
-          "match_id": 9408
+          "text": "Stores true or false values.",
+          "match_id": 6505
         },
         {
-          "text": "Explicitly describes the specific actions or steps for getting to the end\nresult.",
-          "match_id": 5360
+          "text": "Stores whole numbers.",
+          "match_id": 3327
         },
         {
-          "text": "I don't know.",
-          "match_id": 8358
+          "text": "Stores fractional numbers.",
+          "match_id": 6208
+        },
+        {
+          "text": "Stores a single character or ASCII value.",
+          "match_id": 4183
         }
       ],
-      "matching_answer_incorrect_matches": "I don't know."
+      "matching_answer_incorrect_matches": ""
     },
     {
       "id": 304366,
@@ -351,105 +358,30 @@
       "quiz_group_id": null,
       "assessment_question_id": 524958,
       "position": null,
-      "question_name": "Multiple Dropdowns Question",
-      "question_type": "multiple_dropdowns_question",
-      "question_text": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"k\">module</span> <span class=\"nn\">Talk</span>\n  <span class=\"k\">module</span> <span class=\"nn\">Phrases</span>\n    <span class=\"k\">def</span> <span class=\"nf\">hello</span>\n      <span class=\"s2\">\"Hello!\"</span>\n    <span class=\"k\">end</span>\n\n    <span class=\"k\">def</span> <span class=\"nf\">goodbye</span>\n      <span class=\"s2\">\"Good bye!\"</span>\n    <span class=\"k\">end</span>\n  <span class=\"k\">end</span>\n\n  <span class=\"k\">module</span> <span class=\"nn\">Teachers</span>\n    <span class=\"k\">def</span> <span class=\"nf\">teach</span>\n      <span class=\"s2\">\"Repeat after me.\"</span>\n    <span class=\"k\">end</span>\n  <span class=\"k\">end</span>\n<span class=\"k\">end</span>\n</code></pre></div>\n<p>The code sample above is an example of [a1] modules. To access the <code>Teachers</code>\nmodule to include it in a class, we would type include [a2].</p>",
+      "question_name": "True/False Question",
+      "question_type": "true_false_question",
+      "question_text": "<p>True or False: The stack is an area of memory that stores variables during\nruntime.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6675/pages/java-visualizer-and-memory?module_item_id=535467\">Review the Java Visualizer and Memory Lesson</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 2777,
-          "text": "namespaced",
-          "comments": "",
-          "comments_html": "<p>Correct! Both <code>Teachers</code> and <code>Phrases</code> are namespaced inside of <code>Talk</code>. They\ncan be accessed using <code>::</code>.</p>",
-          "weight": 100.0,
-          "blank_id": "a1"
-        },
-        {
-          "id": 7132,
-          "text": "subclass inherited",
-          "comments": "",
-          "comments_html": "<p>There aren't any classes, nor any subclass inheritance, in the syntax above.\nYou might want to review the resource/s for this question.</p>",
-          "weight": 0.0,
-          "blank_id": "a1"
-        },
-        {
-          "id": 5741,
-          "text": "I don't know",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0,
-          "blank_id": "a1"
-        },
-        {
-          "id": 8647,
-          "text": "Talk::Teachers",
-          "comments": "",
-          "comments_html": "<p>Correct! To <code>include</code> the <code>Teachers</code> module, we need to access it using <code>::</code>\non the module that contains it.</p>",
-          "weight": 100.0,
-          "blank_id": "a2"
-        },
-        {
-          "id": 5727,
-          "text": "Teachers::Talk",
-          "comments": "",
-          "comments_html": "<p>When using <code>::</code> to access a nested module, we put the module that contains the\nother module on the left side of the double colon.</p>",
-          "weight": 0.0,
-          "blank_id": "a2"
-        },
-        {
-          "id": 5200,
-          "text": "Talk.Teachers",
-          "comments": "",
-          "comments_html": "<p>Not quite. This looks more like we're trying to call a method on <code>Talk</code>.</p>",
-          "weight": 0.0,
-          "blank_id": "a2"
-        }
-      ],
-      "variables": null,
-      "formulas": null,
-      "answer_tolerance": null,
-      "formula_decimal_places": null,
-      "matches": null,
-      "matching_answer_incorrect_matches": null
-    },
-    {
-      "id": 304367,
-      "quiz_id": 44743,
-      "quiz_group_id": null,
-      "assessment_question_id": 524959,
-      "position": null,
-      "question_name": "Fill in Multiple Blanks Question",
-      "question_type": "fill_in_multiple_blanks_question",
-      "question_text": "<p>In order for Active Record to work, it is necessary to follow the naming\nconventions it is expecting. Specifically, the name of the class must be\n[answer1] and the name of the table must be [answer2].</p>",
-      "points_possible": 1.0,
-      "correct_comments": "",
-      "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "",
-      "answers": [
-        {
-          "id": "9469",
-          "text": "singular",
           "comments": "",
           "comments_html": "",
-          "weight": 100.0,
-          "blank_id": "answer1"
+          "text": "True",
+          "weight": 100,
+          "id": 1990
         },
         {
-          "id": "9373",
-          "text": "plural",
           "comments": "",
           "comments_html": "",
-          "weight": 100.0,
-          "blank_id": "answer2"
+          "text": "False",
+          "weight": 0,
+          "id": 7470
         }
       ],
       "variables": null,
