@@ -14,7 +14,7 @@
     "allowed_attempts": 3,
     "one_question_at_a_time": true,
     "question_count": 6,
-    "points_possible": 7.0,
+    "points_possible": 6.0,
     "cant_go_back": false,
     "access_code": null,
     "ip_filter": null,
@@ -71,7 +71,7 @@
     "only_visible_to_overrides": false,
     "assignment_group_id": 20000,
     "show_correct_answers_last_attempt": true,
-    "version_number": 4,
+    "version_number": 5,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": null,
@@ -138,31 +138,31 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6675/pages/variables?module_item_id=535466\">Review the Variables Lesson</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 9750,
+          "id": "9750",
           "text": "Variable Declaration",
           "left": "Variable Declaration",
           "right": "When we introduce a variable into a program",
           "comments": "",
           "comments_html": "",
-          "match_id": 9836
+          "match_id": 8531
         },
         {
-          "id": 596,
+          "id": "596",
           "text": "Variable Initialization",
           "left": "Variable Initialization",
           "right": "When we give or assign an initial value to a variable.",
           "comments": "",
           "comments_html": "",
-          "match_id": 5137
+          "match_id": 8894
         },
         {
-          "id": 4607,
-          "text": "Variable Assignment or Re-Assignment",
-          "left": "Variable Assignment or Re-Assignment",
+          "id": 4971,
+          "text": "Variable Assignment or Reassignment",
+          "left": "Variable Assignment or Reassignment",
           "right": "When we provide a new value to a variable.",
           "comments": "",
           "comments_html": "",
-          "match_id": 9490
+          "match_id": 829
         }
       ],
       "variables": null,
@@ -172,15 +172,15 @@
       "matches": [
         {
           "text": "When we introduce a variable into a program",
-          "match_id": 9836
+          "match_id": 8531
         },
         {
           "text": "When we give or assign an initial value to a variable.",
-          "match_id": 5137
+          "match_id": 8894
         },
         {
           "text": "When we provide a new value to a variable.",
-          "match_id": 9490
+          "match_id": 829
         }
       ],
       "matching_answer_incorrect_matches": ""
@@ -203,7 +203,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6675/pages/variables?module_item_id=535466\">Review the Variables Lesson</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 3020,
+          "id": "3020",
           "text": "Tardar Sauce",
           "comments": "",
           "comments_html": "",
@@ -292,40 +292,40 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6675/pages/data-types?module_item_id=535465\">Review the Data Types Lesson</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 1389,
+          "id": "1389",
           "text": "boolean",
           "left": "boolean",
           "right": "Stores true or false values.",
           "comments": "",
           "comments_html": "",
-          "match_id": 6505
+          "match_id": 4948
         },
         {
-          "id": 8042,
+          "id": "8042",
           "text": "int",
           "left": "int",
           "right": "Stores whole numbers.",
           "comments": "",
           "comments_html": "",
-          "match_id": 3327
+          "match_id": 8911
         },
         {
-          "id": 1632,
+          "id": "1632",
           "text": "double",
           "left": "double",
           "right": "Stores fractional numbers.",
           "comments": "",
           "comments_html": "",
-          "match_id": 6208
+          "match_id": 7739
         },
         {
-          "id": 9460,
+          "id": "9460",
           "text": "char",
           "left": "char",
           "right": "Stores a single character or ASCII value.",
           "comments": "",
           "comments_html": "",
-          "match_id": 4183
+          "match_id": 7286
         }
       ],
       "variables": null,
@@ -335,19 +335,19 @@
       "matches": [
         {
           "text": "Stores true or false values.",
-          "match_id": 6505
+          "match_id": 4948
         },
         {
           "text": "Stores whole numbers.",
-          "match_id": 3327
+          "match_id": 8911
         },
         {
           "text": "Stores fractional numbers.",
-          "match_id": 6208
+          "match_id": 7739
         },
         {
           "text": "Stores a single character or ASCII value.",
-          "match_id": 4183
+          "match_id": 7286
         }
       ],
       "matching_answer_incorrect_matches": ""
